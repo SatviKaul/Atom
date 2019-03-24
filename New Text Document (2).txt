@@ -1,7 +1,7 @@
 class SigmoidNeuron:
   
   def __init__(self):
-    self.w = None
+    self.w =None
     self.b = None
     
   def perceptron(self, x):
