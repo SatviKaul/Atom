@@ -7,7 +7,7 @@ class SigmoidNeuron:
   def perceptron(self, x):
     return np.dot(x, self.w.T) + self.b
 
-  def sigmoid(self, x):
+  def sigmoid(self,x):
     return 1.0/(1.0 + np.exp(-x))
 
   def grad_w(self, x, y):
