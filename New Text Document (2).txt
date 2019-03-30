@@ -20,7 +20,7 @@ class SigmoidNeuron:
 
   def fit(self, X, Y, epochs=1, learning_rate=1, initialise=True, display_loss=False):
 
-    # initialise w, b
+    # initialise w,b
     if initialise:
       self.w = np.random.randn(1, X.shape[1])
       self.b = 0
