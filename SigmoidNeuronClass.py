@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from tqdm import tqdm_notebook
+
 class SigmoidNeuron:
 
   def __init__(self):
